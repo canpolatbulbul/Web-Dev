@@ -1,0 +1,39 @@
+div {
+  width: 200px;
+  height: 100px;
+  color: goldenrod;
+  margin: 10px;
+}
+.transition {
+  background: fuchsia;
+  transition: all 2s ease;
+}
+.transition:hover {
+  background: gold;
+  transform: translateX(100px);
+}
+.animation {
+  background: cadetblue;
+}
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(50px);
+    background: goldenrod;
+  }
+  75% {
+    background: indianred;
+    transform: translateX(20px);
+  }
+  100% {
+    background: cadetblue;
+    transform: translateX(0px);
+  }
+}
+.animation:hover {
+  animation-name: move;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}

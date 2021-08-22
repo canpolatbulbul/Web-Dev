@@ -1,0 +1,7 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Shades of Purple",
+  "editor.wordWrap": "on",
+  "editor.fontSize": 16,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
